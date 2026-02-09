@@ -5,7 +5,7 @@
 // @description  Download integration for hitomi.la with local Flask API
 // @author       Assistant
 // @match        https://hitomi.la/*
-// @connect      iris.commieneko.xyz
+// @connect      /***YourDownloader.Host***/
 // @connect      127.0.0.1
 // @connect      localhost
 // @grant        GM_xmlhttpRequest
@@ -19,7 +19,7 @@
     'use strict';
 
     // --- Configuration ---
-    const API_BASE = "http://iris.commieneko.xyz:5000"; // Updated from plan
+    const API_BASE = "http://your.downloader.host:5000"; // Updated from plan
     const POLL_INTERVAL = 1000;
 
     // --- CSS Styles ---
