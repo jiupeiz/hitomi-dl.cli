@@ -17,8 +17,8 @@
     'use strict';
 
     // --- Configuration ---
-    const LRR_URL = "http://iris.commieneko.xyz:3000";
-    const LRR_API_KEY = "VbJmPQxmFsD8yWhrbF8LW3OY";
+    const LRR_URL = "http://your.lanraragi.host:3000";
+    const LRR_API_KEY = "YourLanraragiToken";
 
     // --- State Management ---
     const STATE = {
